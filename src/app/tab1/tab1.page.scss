@@ -1,0 +1,71 @@
+ion-content {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    margin-top: 75px;
+    //font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.backgorund-image {
+    --background: url('../../assets/background/windows11.jpg') 0 0/100% 100% no-repeat;
+}
+
+.box-it {
+    width: 150px;
+    padding: 1rem;
+    background: #423c5a80; //colore sfondo
+    color: rgba(255,255,255,0.8); //colore testo
+    border-radius: 12px; //bordi arrotondati
+    box-shadow: 0 10px 15px rgb(0 0 0 / 30%); //ombra box
+    backdrop-filter: blur(33px);
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+
+    animation: fadeInLeft 1s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+
+.box-en {
+    width: 150px;
+    padding: 1rem;
+    background: #423c5a80; //colore sfondo
+    color: rgba(255,255,255,0.8); //colore testo
+    border-radius: 12px; //bordi arrotondati
+    box-shadow: 0 10px 15px rgb(0 0 0 / 30%); //ombra box
+    backdrop-filter: blur(33px);
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 70%;
+
+    animation: fadeInRight 1s;
+}
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
