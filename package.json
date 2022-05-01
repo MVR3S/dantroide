@@ -16,6 +16,7 @@
     "@angular/common": "~13.2.2",
     "@angular/core": "~13.2.2",
     "@angular/forms": "~13.2.2",
+    "@angular/http": "^7.2.16",
     "@angular/platform-browser": "~13.2.2",
     "@angular/platform-browser-dynamic": "~13.2.2",
     "@angular/router": "~13.2.2",
@@ -26,6 +27,7 @@
     "@capacitor/status-bar": "1.0.8",
     "@ionic-super-tabs/angular": "^7.0.8",
     "@ionic/angular": "^6.0.0",
+    "cluster": "^0.7.7",
     "howler": "^2.2.3",
     "jsqr": "^1.4.0",
     "rxjs": "~6.6.0",
@@ -65,5 +67,15 @@
     "ts-node": "~8.3.0",
     "typescript": "~4.4.4"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVR3S/dantroide.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVR3S/dantroide/issues"
+  }
 }

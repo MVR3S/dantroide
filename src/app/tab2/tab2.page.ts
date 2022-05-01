@@ -13,12 +13,16 @@ function toggleDarkTheme(shouldAdd) {
 
 import {Howl} from 'howler';
 import {Component} from '@angular/core';
+import {WebSocketClient} from '../js/funzione';
+
+/////<reference path="tab2.page.d.ts" />
 
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
+
 export class Tab2Page {
 
   Track: { name: string, path: string }[] = [
@@ -32,6 +36,7 @@ export class Tab2Page {
 
   player: Howl = null;
   isplaying = false;
+  soc = new WebSocketClient();
 
   constructor() {
   }
@@ -59,5 +64,13 @@ export class Tab2Page {
       this.player.stop()
       console.log('Terminata');
     }
+  }
+
+  SendMessage(i:number) {
+    this.soc.SocketMessage(i);
+  }
+
+  EstabilishConnection() {
+    this.soc.SocketConnection();
   }
 }
