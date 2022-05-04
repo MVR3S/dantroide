@@ -13,7 +13,7 @@ function toggleDarkTheme(shouldAdd) {
 
 import {Howl} from 'howler';
 import {Component} from '@angular/core';
-import {WebSocketClient} from '../js/funzione';
+import {WebSocketClient} from '../js/Socket';
 
 /////<reference path="tab2.page.d.ts" />
 
