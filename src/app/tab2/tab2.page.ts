@@ -25,15 +25,6 @@ import {WebSocketClient} from '../js/Socket';
 
 export class Tab2Page {
 
-  Track: { name: string, path: string }[] = [
-    { "name": "VITA", "path": "../../assets/mp3/VITA.mp3" },
-    { "name": "FORMAZIONE", "path": "../../assets/mp3/FORMAZIONE.mp3" },
-    { "name": "OPERE", "path": "../../assets/mp3/OPERE.mp3" },
-    { "name": "POLITICA", "path": "../../assets/mp3/POLITICA.mp3" },
-    { "name": "ESILIO", "path": "../../assets/mp3/ESILIO.mp3" },
-    { "name": "MORTE", "path": "../../assets/mp3/MORTE.mp3" }
-  ];
-
   player: Howl = null;
   isplaying = false;
   soc = new WebSocketClient();
@@ -41,32 +32,7 @@ export class Tab2Page {
   constructor() {
   }
 
-  start(i: number) {
-    if (this.isplaying) {
-      this.player.stop();
-    }
-      this.player = new Howl({
-        src: this.Track[i].path,
-        onplay: () => {
-          console.log('In riproduzione');
-          this.isplaying = true;
-          //this.activeTrack = track;
-        },
-        onend: () => {
-          console.log('Terminata');
-        }
-      })
-      this.player.play();
-  }
-
-  stop() {
-    if (this.player) {
-      this.player.stop()
-      console.log('Terminata');
-    }
-  }
-
-  SendMessage(i:number) {
+  SendMessage(i:CharacterData) {
     this.soc.SocketMessage(i);
   }
 
