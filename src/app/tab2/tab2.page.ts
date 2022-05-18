@@ -15,8 +15,6 @@ import {Howl} from 'howler';
 import {Component} from '@angular/core';
 import {WebSocketClient} from '../js/Socket';
 
-/////<reference path="tab2.page.d.ts" />
-
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
@@ -32,7 +30,7 @@ export class Tab2Page {
   constructor() {
   }
 
-  SendMessage(i:CharacterData) {
+  SendMessage(i:String) {
     this.soc.SocketMessage(i);
   }
 
