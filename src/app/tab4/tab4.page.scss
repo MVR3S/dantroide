@@ -1,0 +1,80 @@
+/* Optional CSS, this is added for the flashing that happens when toggling between themes */
+ion-item {
+    --transition: none;
+  }
+
+.backgorund-image {
+    --background: url('../../assets/background/windows11.jpg') 0 0/100% 100% no-repeat;
+  }
+  
+  ion-button {
+    background: #423c5a80; //colore sfondo
+    color: rgba(255,255,255,0.8); //colore testo
+    border-radius: 12px; //bordi arrotondati
+    box-shadow: 0 10px 15px rgb(0 0 0 / 30%); //ombra box
+    backdrop-filter: blur(33px);
+  }
+  
+  .bottone{
+      height: 35px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 7%;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .stop{
+      height: 35px;
+      border-radius: 5px;
+      margin-top: 7%;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .connessione{
+      height: 35px;
+      border-radius: 5px;
+      margin-top: 7%;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .scritta{
+      color: black;
+      margin-top: 10%;
+      
+    }
+
+    .scritta2{
+      color: black;
+      margin-top: 25%;
+    }
+
+    .bottone1{
+      position: relative;
+      height: 35px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 3%;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .bottone2{
+      position: relative;
+      height: 35px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 0%;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+  
+
+    

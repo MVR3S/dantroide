@@ -1,0 +1,22 @@
+<ion-content class="backgorund-image" [fullscreen]="true">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  </style>
+
+  <center><p style="font-weight: bold" class="scritta">Dante si presenta</p></center>
+
+  <ion-button id="vita" color="#e01802" class="bottone" style="width: 35%; margin-top: 2%" (click)="SendMessage(i='a')">VITA</ion-button>
+  <ion-button color="#e01802" class="bottone" style="width: 35%; margin-top: 2%" (click)="SendMessage(i='b')">FORMAZIONE</ion-button>
+  <ion-button color="#e01802" class="bottone" style="width: 35%" (click)="SendMessage(i='c')">OPERE</ion-button>
+  <ion-button color="#e01802" class="bottone" style="width: 35%" (click)="SendMessage(i='d')">POLITICA</ion-button>
+  <ion-button color="#e01802" class="bottone" style="width: 35%" (click)="SendMessage(i='e')">ESILIO</ion-button>
+  <ion-button color="#e01802" class="bottone" style="width: 35%" (click)="SendMessage(i='f')">MORTE</ion-button>
+  <center><ion-button color="#e01802" class="stop" style="width: 35%" (click)="SendMessage(i='z')">STOP</ion-button></center>
+ 
+  <center><p style="font-weight: bold" class="scritta2">Le parole di Dante</p></center>
+  <ion-button color="#e01802" class="bottone1" style="width: 30%;  margin-left: 3%">SCIENZA
+  </ion-button>
+  <ion-button color="#e01802" class="bottone1" style="width: 59.5%; margin-left: 2%">PLURILINGUISMO</ion-button>
+
+  <center><ion-button color="#e01802" class="connessione" style="width: 35%; margin-top: 2%" (click)="EstabilishConnection()">CONNETTITI</ion-button></center>
+</ion-content>
