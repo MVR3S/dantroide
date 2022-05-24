@@ -14,6 +14,7 @@ function toggleDarkTheme(shouldAdd) {
 import {Howl} from 'howler';
 import {Component} from '@angular/core';
 import {WebSocketClient} from '../js/Socket';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab2',
@@ -27,7 +28,7 @@ export class Tab2Page {
   isplaying = false;
   soc = new WebSocketClient();
 
-  constructor() {
+  constructor(public navCtrl: NavController) {
   }
 
   SendMessage(i:String) {
@@ -36,5 +37,9 @@ export class Tab2Page {
 
   EstabilishConnection() {
     this.soc.SocketConnection();
+  }
+
+  GoToTab4(){
+    this.navCtrl.navigateForward('tab4');
   }
 }
