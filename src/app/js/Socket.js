@@ -1,7 +1,7 @@
 export class WebSocketClient {
 
     constructor() {
-        this.url = "ws://192.168.43.149:8484";
+        this.url = "ws://192.168.188.140:8484";
         this.websocket;
     }
 
