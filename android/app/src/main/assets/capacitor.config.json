@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Dantroide",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
