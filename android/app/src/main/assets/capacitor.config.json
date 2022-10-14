@@ -1,5 +1,5 @@
 {
-	"appId": "io.ionic.starter",
+	"appId": "it.edu.marconi.dantroide",
 	"appName": "Dantroide",
 	"webDir": "www",
 	"bundledWebRuntime": false

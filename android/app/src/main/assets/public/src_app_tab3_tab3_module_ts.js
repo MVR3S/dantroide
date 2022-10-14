@@ -7,7 +7,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = ".backgorund-image {\n  --background: url('SfondoApp.png') 0 0/100% 100% no-repeat;\n}\n\nion-button {\n  background: #423c5a80;\n  color: rgba(255, 255, 255, 0.8);\n  border-radius: 12px;\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);\n  -webkit-backdrop-filter: blur(33px);\n          backdrop-filter: blur(33px);\n}\n\n.bottone {\n  height: 35px;\n  border-radius: 5px;\n  margin-top: 7%;\n  font-weight: bold;\n  font-size: 16px;\n  letter-spacing: 1px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYjMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMERBQUE7QUFDRjs7QUFFQTtFQUNFLHFCQUFBO0VBQ0EsK0JBQUE7RUFDQSxtQkFBQTtFQUNBLDBDQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtBQUNGOztBQUVBO0VBQ0UsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0FBQ0YiLCJmaWxlIjoidGFiMy5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmFja2dvcnVuZC1pbWFnZSB7XHJcbiAgLS1iYWNrZ3JvdW5kOiB1cmwoJy4uLy4uL2Fzc2V0cy9iYWNrZ3JvdW5kL1Nmb25kb0FwcC5wbmcnKSAwIDAvMTAwJSAxMDAlIG5vLXJlcGVhdDtcclxufVxyXG5cclxuaW9uLWJ1dHRvbiB7XHJcbiAgYmFja2dyb3VuZDogIzQyM2M1YTgwOyAvL2NvbG9yZSBzZm9uZG9cclxuICBjb2xvcjogcmdiYSgyNTUsMjU1LDI1NSwwLjgpOyAvL2NvbG9yZSB0ZXN0b1xyXG4gIGJvcmRlci1yYWRpdXM6IDEycHg7IC8vYm9yZGkgYXJyb3RvbmRhdGlcclxuICBib3gtc2hhZG93OiAwIDEwcHggMTVweCByZ2IoMCAwIDAgLyAzMCUpOyAvL29tYnJhIGJveFxyXG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cigzM3B4KTtcclxufVxyXG5cclxuLmJvdHRvbmV7XHJcbiAgaGVpZ2h0OiAzNXB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBtYXJnaW4tdG9wOiA3JTtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxuICBmb250LXNpemU6IDE2cHg7XHJcbiAgbGV0dGVyLXNwYWNpbmc6IDFweDtcclxufSJdfQ== */";
+module.exports = ".backgorund-image {\n  --background: url('SfondoApp.png') 0 0/100% 100% no-repeat;\n}\n\nion-button {\n  background: #423c5a80;\n  color: rgba(255, 255, 255, 0.8);\n  border-radius: 12px;\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);\n  -webkit-backdrop-filter: blur(33px);\n          backdrop-filter: blur(33px);\n}\n\n.bottone {\n  height: 35px;\n  border-radius: 5px;\n  margin-top: 7%;\n  font-weight: bold;\n  font-size: 13px;\n  letter-spacing: 1px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYjMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMERBQUE7QUFDRjs7QUFFQTtFQUNFLHFCQUFBO0VBQ0EsK0JBQUE7RUFDQSxtQkFBQTtFQUNBLDBDQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtBQUNGOztBQUVBO0VBQ0UsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0FBQ0YiLCJmaWxlIjoidGFiMy5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmFja2dvcnVuZC1pbWFnZSB7XG4gIC0tYmFja2dyb3VuZDogdXJsKCcuLi8uLi9hc3NldHMvYmFja2dyb3VuZC9TZm9uZG9BcHAucG5nJykgMCAwLzEwMCUgMTAwJSBuby1yZXBlYXQ7XG59XG5cbmlvbi1idXR0b24ge1xuICBiYWNrZ3JvdW5kOiAjNDIzYzVhODA7IC8vY29sb3JlIHNmb25kb1xuICBjb2xvcjogcmdiYSgyNTUsMjU1LDI1NSwwLjgpOyAvL2NvbG9yZSB0ZXN0b1xuICBib3JkZXItcmFkaXVzOiAxMnB4OyAvL2JvcmRpIGFycm90b25kYXRpXG4gIGJveC1zaGFkb3c6IDAgMTBweCAxNXB4IHJnYigwIDAgMCAvIDMwJSk7IC8vb21icmEgYm94XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cigzM3B4KTtcbn1cblxuLmJvdHRvbmV7XG4gIGhlaWdodDogMzVweDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBtYXJnaW4tdG9wOiA3JTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogMTNweDtcbiAgbGV0dGVyLXNwYWNpbmc6IDFweDtcbn0iXX0= */";
 
 /***/ }),
 
@@ -18,7 +18,7 @@ module.exports = ".backgorund-image {\n  --background: url('SfondoApp.png') 0 0/
 /***/ ((module) => {
 
 "use strict";
-module.exports = "<ion-content class=\"backgorund-image\" [fullscreen]=\"true\">\r\n  <center><ion-button color=\"#e01802\" class=\"bottone\" style=\"width: 35%; margin-top: 100%\">AI</ion-button></center>\r\n</ion-content>\r\n";
+module.exports = "<ion-content class=\"backgorund-image\" [fullscreen]=\"true\">\n  <center><ion-button color=\"#e01802\" class=\"bottone\" style=\"width: 35%; margin-top: 100%\">AI</ion-button></center>\n</ion-content>\n";
 
 /***/ }),
 
@@ -38,7 +38,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	var installedModules = {};
 /******/
 /******/ 	// The require function
-/******/ 	function __nested_webpack_require_583__(moduleId) {
+/******/ 	function __nested_webpack_require_568__(moduleId) {
 /******/
 /******/ 		// Check if module is in cache
 /******/ 		if(installedModules[moduleId]) {
@@ -52,7 +52,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 		};
 /******/
 /******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_583__);
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_568__);
 /******/
 /******/ 		// Flag the module as loaded
 /******/ 		module.l = true;
@@ -63,14 +63,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__nested_webpack_require_583__.m = modules;
+/******/ 	__nested_webpack_require_568__.m = modules;
 /******/
 /******/ 	// expose the module cache
-/******/ 	__nested_webpack_require_583__.c = installedModules;
+/******/ 	__nested_webpack_require_568__.c = installedModules;
 /******/
 /******/ 	// define getter function for harmony exports
-/******/ 	__nested_webpack_require_583__.d = function(exports, name, getter) {
-/******/ 		if(!__nested_webpack_require_583__.o(exports, name)) {
+/******/ 	__nested_webpack_require_568__.d = function(exports, name, getter) {
+/******/ 		if(!__nested_webpack_require_568__.o(exports, name)) {
 /******/ 			Object.defineProperty(exports, name, {
 /******/ 				configurable: false,
 /******/ 				enumerable: true,
@@ -80,22 +80,22 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	};
 /******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__nested_webpack_require_583__.n = function(module) {
+/******/ 	__nested_webpack_require_568__.n = function(module) {
 /******/ 		var getter = module && module.__esModule ?
 /******/ 			function getDefault() { return module['default']; } :
 /******/ 			function getModuleExports() { return module; };
-/******/ 		__nested_webpack_require_583__.d(getter, 'a', getter);
+/******/ 		__nested_webpack_require_568__.d(getter, 'a', getter);
 /******/ 		return getter;
 /******/ 	};
 /******/
 /******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__nested_webpack_require_583__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/ 	__nested_webpack_require_568__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__nested_webpack_require_583__.p = "";
+/******/ 	__nested_webpack_require_568__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __nested_webpack_require_583__(__nested_webpack_require_583__.s = 3);
+/******/ 	return __nested_webpack_require_568__(__nested_webpack_require_568__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -137,12 +137,12 @@ exports.BitMatrix = BitMatrix;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __nested_webpack_require_4066__) {
+/***/ (function(module, exports, __nested_webpack_require_3952__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var GenericGFPoly_1 = __nested_webpack_require_4066__(2);
+var GenericGFPoly_1 = __nested_webpack_require_3952__(2);
 function addOrSubtractGF(a, b) {
     return a ^ b; // tslint:disable-line:no-bitwise
 }
@@ -207,12 +207,12 @@ exports.default = GenericGF;
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports, __nested_webpack_require_6456__) {
+/***/ (function(module, exports, __nested_webpack_require_6272__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var GenericGF_1 = __nested_webpack_require_6456__(1);
+var GenericGF_1 = __nested_webpack_require_6272__(1);
 var GenericGFPoly = /** @class */ (function () {
     function GenericGFPoly(field, coefficients) {
         if (coefficients.length === 0) {
@@ -344,15 +344,15 @@ exports.default = GenericGFPoly;
 
 /***/ }),
 /* 3 */
-/***/ (function(module, exports, __nested_webpack_require_11868__) {
+/***/ (function(module, exports, __nested_webpack_require_11547__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var binarizer_1 = __nested_webpack_require_11868__(4);
-var decoder_1 = __nested_webpack_require_11868__(5);
-var extractor_1 = __nested_webpack_require_11868__(11);
-var locator_1 = __nested_webpack_require_11868__(12);
+var binarizer_1 = __nested_webpack_require_11547__(4);
+var decoder_1 = __nested_webpack_require_11547__(5);
+var extractor_1 = __nested_webpack_require_11547__(11);
+var locator_1 = __nested_webpack_require_11547__(12);
 function scan(matrix) {
     var locations = locator_1.locate(matrix);
     if (!locations) {
@@ -407,12 +407,12 @@ exports.default = jsQR;
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports, __nested_webpack_require_14552__) {
+/***/ (function(module, exports, __nested_webpack_require_14168__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var BitMatrix_1 = __nested_webpack_require_14552__(0);
+var BitMatrix_1 = __nested_webpack_require_14168__(0);
 var REGION_SIZE = 8;
 var MIN_DYNAMIC_RANGE = 24;
 function numBetween(value, min, max) {
@@ -527,15 +527,15 @@ exports.binarize = binarize;
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports, __nested_webpack_require_20368__) {
+/***/ (function(module, exports, __nested_webpack_require_19864__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var BitMatrix_1 = __nested_webpack_require_20368__(0);
-var decodeData_1 = __nested_webpack_require_20368__(6);
-var reedsolomon_1 = __nested_webpack_require_20368__(9);
-var version_1 = __nested_webpack_require_20368__(10);
+var BitMatrix_1 = __nested_webpack_require_19864__(0);
+var decodeData_1 = __nested_webpack_require_19864__(6);
+var reedsolomon_1 = __nested_webpack_require_19864__(9);
+var version_1 = __nested_webpack_require_19864__(10);
 // tslint:disable:no-bitwise
 function numBitsDiffering(x, y) {
     var z = x ^ y;
@@ -843,14 +843,14 @@ exports.decode = decode;
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports, __nested_webpack_require_34495__) {
+/***/ (function(module, exports, __nested_webpack_require_33675__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 // tslint:disable:no-bitwise
-var BitStream_1 = __nested_webpack_require_34495__(7);
-var shiftJISTable_1 = __nested_webpack_require_34495__(8);
+var BitStream_1 = __nested_webpack_require_33675__(7);
+var shiftJISTable_1 = __nested_webpack_require_33675__(8);
 var Mode;
 (function (Mode) {
     Mode["Numeric"] = "numeric";
@@ -8171,13 +8171,13 @@ exports.shiftJISTable = {
 
 /***/ }),
 /* 9 */
-/***/ (function(module, exports, __nested_webpack_require_192070__) {
+/***/ (function(module, exports, __nested_webpack_require_183922__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var GenericGF_1 = __nested_webpack_require_192070__(1);
-var GenericGFPoly_1 = __nested_webpack_require_192070__(2);
+var GenericGF_1 = __nested_webpack_require_183922__(1);
+var GenericGFPoly_1 = __nested_webpack_require_183922__(2);
 function runEuclideanAlgorithm(field, a, b, R) {
     var _a;
     // Assume a's degree is >= b's
@@ -9615,12 +9615,12 @@ exports.VERSIONS = [
 
 /***/ }),
 /* 11 */
-/***/ (function(module, exports, __nested_webpack_require_241237__) {
+/***/ (function(module, exports, __nested_webpack_require_231645__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var BitMatrix_1 = __nested_webpack_require_241237__(0);
+var BitMatrix_1 = __nested_webpack_require_231645__(0);
 function squareToQuadrilateral(p1, p2, p3, p4) {
     var dx3 = p1.x - p2.x + p3.x - p4.x;
     var dy3 = p1.y - p2.y + p3.y - p4.y;

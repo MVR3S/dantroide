@@ -18,7 +18,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /***/ ((module) => {
 
 "use strict";
-module.exports = "<ion-app>\r\n  <ion-router-outlet></ion-router-outlet>\r\n</ion-app>\r\n";
+module.exports = "<ion-app>\n  <ion-router-outlet></ion-router-outlet>\n</ion-app>\n";
 
 /***/ }),
 
@@ -223,7 +223,6 @@ var map = {
 	],
 	"./ion-avatar_3.entry.js": [
 		5121,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js"
 	],
 	"./ion-back-button.entry.js": [
@@ -242,30 +241,32 @@ var map = {
 	],
 	"./ion-button_2.entry.js": [
 		9787,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-button_2_entry_js"
 	],
 	"./ion-card_5.entry.js": [
 		7464,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-card_5_entry_js"
 	],
 	"./ion-checkbox.entry.js": [
 		9569,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-checkbox_entry_js"
 	],
 	"./ion-chip.entry.js": [
 		5119,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-chip_entry_js"
 	],
 	"./ion-col_3.entry.js": [
 		799,
 		"node_modules_ionic_core_dist_esm_ion-col_3_entry_js"
 	],
+	"./ion-datetime-button.entry.js": [
+		6519,
+		"default-node_modules_ionic_core_dist_esm_parse-decd0f85_js-node_modules_ionic_core_dist_esm_t-a92c48",
+		"node_modules_ionic_core_dist_esm_ion-datetime-button_entry_js"
+	],
 	"./ion-datetime_3.entry.js": [
 		8918,
+		"default-node_modules_ionic_core_dist_esm_parse-decd0f85_js-node_modules_ionic_core_dist_esm_t-a92c48",
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js"
 	],
@@ -285,11 +286,10 @@ var map = {
 	],
 	"./ion-input.entry.js": [
 		123,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-input_entry_js"
 	],
 	"./ion-item-option_3.entry.js": [
-		8706,
+		7741,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js"
 	],
@@ -300,7 +300,6 @@ var map = {
 	],
 	"./ion-loading.entry.js": [
 		4868,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-loading_entry_js"
 	],
 	"./ion-menu_3.entry.js": [
@@ -334,12 +333,10 @@ var map = {
 	],
 	"./ion-progress-bar.entry.js": [
 		8555,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js"
 	],
 	"./ion-radio_2.entry.js": [
 		568,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-radio_2_entry_js"
 	],
 	"./ion-range.entry.js": [
@@ -363,7 +360,6 @@ var map = {
 	],
 	"./ion-route_4.entry.js": [
 		4990,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-route_4_entry_js"
 	],
 	"./ion-searchbar.entry.js": [
@@ -378,7 +374,6 @@ var map = {
 	],
 	"./ion-select_3.entry.js": [
 		7619,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-select_3_entry_js"
 	],
 	"./ion-slide_2.entry.js": [
@@ -406,17 +401,14 @@ var map = {
 	],
 	"./ion-text.entry.js": [
 		1006,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-text_entry_js"
 	],
 	"./ion-textarea.entry.js": [
 		4783,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-textarea_entry_js"
 	],
 	"./ion-toast.entry.js": [
 		2749,
-		"common",
 		"node_modules_ionic_core_dist_esm_ion-toast_entry_js"
 	],
 	"./ion-toggle.entry.js": [

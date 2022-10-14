@@ -7,7 +7,7 @@
   \************************************************/
 /***/ ((module) => {
 
-module.exports = "ion-tab-bar {\n  --border: none;\n  --background: #423c5a80;\n  margin: 16px 20px;\n  border-radius: 12px;\n  -webkit-backdrop-filter: blur(33px);\n          backdrop-filter: blur(33px);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  animation: fadeInBottom 0.5s;\n}\n\n@keyframes fadeInBottom {\n  0% {\n    opacity: 0;\n    transform: translateY(20px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtFQUNBLHVCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtFQUNBLG1DQUFBO1VBQUEsMkJBQUE7RUFDQSwwQ0FBQTtFQUdBLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0VBRUEsNEJBQUE7QUFGSjs7QUFLQTtFQUNJO0lBQ0csVUFBQTtJQUNBLDJCQUFBO0VBRkw7RUFJRTtJQUNHLFVBQUE7SUFDQSx3QkFBQTtFQUZMO0FBQ0YiLCJmaWxlIjoidGFicy5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24tdGFiLWJhciB7XHJcbiAgICAtLWJvcmRlcjogbm9uZTtcclxuICAgIC0tYmFja2dyb3VuZDogIzQyM2M1YTgwO1xyXG4gICAgbWFyZ2luOiAxNnB4IDIwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMnB4O1xyXG4gICAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDMzcHgpO1xyXG4gICAgYm94LXNoYWRvdzogMCAxMHB4IDE1cHggcmdiKDAgMCAwIC8gMzAlKTtcclxuXHJcbiAgICAvLyBUcmFuc2x1Y2VudCBwb3NpdGlvbmluZyBlZmZlY3RcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGJvdHRvbTogMDtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICByaWdodDogMDtcclxuXHJcbiAgICBhbmltYXRpb246IGZhZGVJbkJvdHRvbSAuNXM7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgZmFkZUluQm90dG9tIHtcclxuICAgIDAlIHtcclxuICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMjBweCk7XHJcbiAgICB9XHJcbiAgICAxMDAlIHtcclxuICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7XHJcbiAgICB9XHJcbn0iXX0= */";
+module.exports = "ion-tab-bar {\n  --border: none;\n  --background: #423c5a80;\n  margin: 16px 20px;\n  border-radius: 12px;\n  -webkit-backdrop-filter: blur(33px);\n          backdrop-filter: blur(33px);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  animation: fadeInBottom 0.5s;\n}\n\n@keyframes fadeInBottom {\n  0% {\n    opacity: 0;\n    transform: translateY(20px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtFQUNBLHVCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtFQUNBLG1DQUFBO1VBQUEsMkJBQUE7RUFDQSwwQ0FBQTtFQUdBLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0VBRUEsNEJBQUE7QUFGSjs7QUFLQTtFQUNJO0lBQ0csVUFBQTtJQUNBLDJCQUFBO0VBRkw7RUFJRTtJQUNHLFVBQUE7SUFDQSx3QkFBQTtFQUZMO0FBQ0YiLCJmaWxlIjoidGFicy5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24tdGFiLWJhciB7XG4gICAgLS1ib3JkZXI6IG5vbmU7XG4gICAgLS1iYWNrZ3JvdW5kOiAjNDIzYzVhODA7XG4gICAgbWFyZ2luOiAxNnB4IDIwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogMTJweDtcbiAgICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoMzNweCk7XG4gICAgYm94LXNoYWRvdzogMCAxMHB4IDE1cHggcmdiKDAgMCAwIC8gMzAlKTtcblxuICAgIC8vIFRyYW5zbHVjZW50IHBvc2l0aW9uaW5nIGVmZmVjdFxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBib3R0b206IDA7XG4gICAgbGVmdDogMDtcbiAgICByaWdodDogMDtcblxuICAgIGFuaW1hdGlvbjogZmFkZUluQm90dG9tIC41cztcbn1cblxuQGtleWZyYW1lcyBmYWRlSW5Cb3R0b20ge1xuICAgIDAlIHtcbiAgICAgICBvcGFjaXR5OiAwO1xuICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgyMHB4KTtcbiAgICB9XG4gICAgMTAwJSB7XG4gICAgICAgb3BhY2l0eTogMTtcbiAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7XG4gICAgfVxufSJdfQ== */";
 
 /***/ }),
 
@@ -17,7 +17,7 @@ module.exports = "ion-tab-bar {\n  --border: none;\n  --background: #423c5a80;\n
   \************************************************/
 /***/ ((module) => {
 
-module.exports = "<ion-tabs>\r\n  <ion-tab-bar [translucent]=\"true\" slot=\"bottom\">\r\n\r\n    <ion-tab-button tab=\"tab1\">\r\n      <ion-icon src=\"../../assets/book.svg\"></ion-icon>\r\n      <ion-label>Start</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab2\">\r\n      <ion-icon src=\"../../assets/audio.svg\"></ion-icon>\r\n      <ion-label>Audio</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab3\">\r\n      <ion-icon src=\"../../assets/ai.svg\"></ion-icon>\r\n      <ion-label>AI</ion-label>\r\n    </ion-tab-button>\r\n\r\n  <!--<ion-tab-button tab=\"tab4\">\r\n      <ion-icon src=\"../../assets/audio.svg\"></ion-icon>\r\n      <ion-label>Audio</ion-label>\r\n    </ion-tab-button>-->\r\n\r\n  </ion-tab-bar>\r\n</ion-tabs>";
+module.exports = "<ion-tabs>\n  <ion-tab-bar [translucent]=\"true\" slot=\"bottom\">\n\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon src=\"../../assets/book.svg\"></ion-icon>\n      <ion-label>Start</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon src=\"../../assets/audio.svg\"></ion-icon>\n      <ion-label>Audio</ion-label>\n    </ion-tab-button>\n\n    <!--<ion-tab-button tab=\"tab3\">\n      <ion-icon src=\"../../assets/ai.svg\"></ion-icon>\n      <ion-label>AI</ion-label>\n    </ion-tab-button>-->\n\n    <ion-tab-button tab=\"tab4\">\n      <ion-icon src=\"../../assets/audio.svg\"></ion-icon>\n      <ion-label>Audio</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab5\">\n      <ion-icon src=\"../../assets/audio.svg\"></ion-icon>\n      <ion-label>Audio</ion-label>\n    </ion-tab-button>\n\n  </ion-tab-bar>\n</ion-tabs>";
 
 /***/ }),
 
@@ -50,7 +50,7 @@ const routes = [
             },
             {
                 path: 'tab2',
-                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_tab4_tab4_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../tab4/tab4.module */ 2486)).then(m => m.Tab4PageModule)
+                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_tab2_tab2_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../tab2/tab2.module */ 4608)).then(m => m.Tab2PageModule)
             },
             {
                 path: 'tab3',
@@ -58,7 +58,11 @@ const routes = [
             },
             {
                 path: 'tab4',
-                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_tab2_tab2_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../tab2/tab2.module */ 4608)).then(m => m.Tab2PageModule)
+                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_tab4_tab4_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../tab4/tab4.module */ 2486)).then(m => m.Tab4PageModule)
+            },
+            {
+                path: 'tab5',
+                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_tab5_tab5_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../tab5/tab5.module */ 5184)).then(m => m.Tab5PageModule)
             },
             {
                 path: '',
