@@ -3,11 +3,12 @@
 }
 
 ion-button {
-  background: #423c5a80; //colore sfondo
+  //background: #423c5a80; //colore sfondo
+  background: #34323d; //colore sfondo
   color: rgba(255,255,255,0.8); //colore testo
   border-radius: 12px; //bordi arrotondati
   box-shadow: 0 10px 15px rgb(0 0 0 / 30%); //ombra box
-  backdrop-filter: blur(33px);
+  //backdrop-filter: blur(33px);
 }
 
 .bottone{

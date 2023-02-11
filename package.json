@@ -29,6 +29,7 @@
     "@ionic/angular": "^6.0.0",
     "cluster": "^0.7.7",
     "commander": "^9.4.1",
+    "cordova-res": "^0.15.4",
     "howler": "^2.2.3",
     "jsqr": "^1.4.0",
     "plist": "^3.0.6",

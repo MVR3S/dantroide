@@ -8,27 +8,28 @@ ion-item {
 }
 
 ion-button {
-  background: #423c5a80; //colore sfondo
+  //background: #423c5a80; //colore sfondo
+  background: #34323d; //colore sfondo
   color: rgba(255,255,255,0.8); //colore testo
   border-radius: 12px; //bordi arrotondati
   box-shadow: 0 10px 15px rgb(0 0 0 / 30%); //ombra box
-  backdrop-filter: blur(33px);
+  //backdrop-filter: blur(33px);
 }
 
 .bottone{
-    height: 35px;
+    height: 45px;
     border-radius: 5px;
     margin-left: 10%;
-    margin-top: 7%;
+    margin-top: 5%;
     font-weight: bold;
-    font-size: 13px;
+    font-size: auto;
     letter-spacing: 1px;
   }
 
   .stop{
-    height: 35px;
+    height: 45px;
     border-radius: 5px;
-    margin-top: 7%;
+    margin-top: 5%;
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
@@ -48,10 +49,11 @@ ion-button {
   .scritta{
     color: white;
     margin-top: 10%;
+    font-size: x-large;
     
   }
   
-  .bottone1{
+  /*.bottone1{
     position: relative;
     height: 35px;
     border-radius: 5px;
@@ -60,9 +62,9 @@ ion-button {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
-  }
+  }*/
 
-  .bottone2{
+  /*.bottone2{
     position: relative;
     height: 35px;
     border-radius: 5px;
@@ -71,7 +73,7 @@ ion-button {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
-  }
+  }*/
 
 
   

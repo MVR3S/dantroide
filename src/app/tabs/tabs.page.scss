@@ -1,9 +1,10 @@
 ion-tab-bar {
     --border: none;
-    --background: #423c5a80;
+    //--background: #423c5a80;
+    background: #34323d; //colore sfondo
     margin: 16px 20px;
     border-radius: 12px;
-    backdrop-filter: blur(33px);
+    //backdrop-filter: blur(33px);
     box-shadow: 0 10px 15px rgb(0 0 0 / 30%);
 
     // Translucent positioning effect
